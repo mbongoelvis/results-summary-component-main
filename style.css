@@ -1,0 +1,161 @@
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: hanken grotesk , sans-serif;
+}
+.main{
+    display: flex;
+    max-width: 45%;
+    height: 55%;
+    box-shadow: 0px 0px 40px rgb(184, 181, 181);
+    border-radius: 35px 20px 20px 35px;
+}
+.first{
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 2rem;
+    width: 45%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first p{
+    color:hsl(241, 100%, 89%);
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.result{
+    width: 50%;
+    height: 35%;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(241, 81%, 54%, 80%),hsla(252, 100%, 67%,20%));
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result p{
+    color: white;
+    font-size: 3.5rem;
+    margin: 0;
+}
+.result span{
+    color: hsl(0, 1%, 60%);
+    font-size: .9rem;
+    font-weight: 700;
+    margin-top: -10px;
+}
+span{
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 0;
+    width: 75%;
+}
+.second{
+    width: 45%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.second span{
+    color: black;
+    font-size: 1.2rem;
+}
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 74%, 89%);
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reaction-img span {
+    color: hsl(0, 100%, 67%);
+    margin: 5px 6px;
+    font-size: 1rem;
+}
+.reaction-text span{
+    font-size: 1.1rem;
+}
+.memory{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(40, 76%, 89%);
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.memory-img span {
+    color: hsl(39, 100%, 56%);
+    margin: 5px 6px;
+    font-size: 1rem;
+}
+.memory-text span{
+    font-size: 1.1rem;
+}
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(167, 100%, 92%);
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.verbal-img span {
+    color: hsl(166, 100%, 37%);
+    margin: 5px 6px;
+    font-size: 1rem;
+}
+.verbal-text span{
+    font-size: 1.1rem;
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(235, 100%, 87%);
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.visual-img span {
+    color: hsl(234, 85%, 45%);
+    margin: 5px 6px;
+    font-size: 1rem;
+}
+.visual-text span{
+    font-size: 1.1rem;
+}
+button{
+    width: 90%;
+    margin-left: 5%;
+    height: 12%;
+    border: none;
+    border-radius: 20px;
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(224, 30%, 27%);
+}
+button:hover{
+    background-image: linear-gradient( hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+@media (min-width: 1200px) {
+  .main {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+  button{
+    font-size: 1rem;
+  }
+}
